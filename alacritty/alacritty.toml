@@ -12,7 +12,7 @@ family = "MesloLGS NF"
 multiplier = 6
 
 [window]
-opacity = 0.5
+opacity = 0.75
 
 [window.padding]
 # x = 10
