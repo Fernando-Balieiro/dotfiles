@@ -14,7 +14,7 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:monospace 8
-font pango:MesloLGS 8
+font pango:MesloLGS NF 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -192,10 +192,10 @@ bar {
 }
 
 # Aqui mudam-se as imagens de papel de parede
-exec_always --no-startup-id feh --bg-fill ~/Documents/wppr/lain-black.jpg
+exec_always --no-startup-id feh --bg-fill ~/Documents/wppr/ascii-cat.png
 
 #configura transparência das demais telas
-exec_always --no-startup-id compton
+#exec_always --no-startup-id compton
 
 # esse aqui configura a transparência do terminal
 exec --no-startup-id picom -CGb
@@ -203,6 +203,8 @@ exec --no-startup-id picom -CGb
 
 default_border pixel 2
 
-gaps inner 8
+gaps inner 20
 
-client.focused #6497b1 #285577 #ffffff #2e9ef4  #285577
+client.focused #E03FD8 #285577 #ffffff #2e9ef4  #285577
+
+bindsym $mod + f exec firefox
