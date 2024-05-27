@@ -33,3 +33,7 @@ stow .
 ```
 
 assim, você automaticamente criará __symlinks__ de forma baseada no filesystem desse repositório no seu sistema
+
+### TODO
+
+estou planejando portar meus dotfiles todos para ansible, para que assim eu possa realizar uma verdadeira automação e para poder realizar não só a instalação dos dotfiles, mas também de aplicativos como o docker, Golang e Rust com apenas um script
